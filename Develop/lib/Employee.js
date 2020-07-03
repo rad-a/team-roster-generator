@@ -3,12 +3,12 @@
 // Define Employee class
 
 class Employee {
-  constructor(name, id, email) {
+  constructor(name, id, email, department) {
     this.name = name;
     this.id = id;
     this.email = email;
     this.role = "Employee";
-    // this.department = department;
+    this.department = department;
   }
 
   //Get properties for Employee
@@ -24,9 +24,9 @@ class Employee {
   getRole() {
     return this.role;
   }
-//   getDepartment() {
-//     return this.department;
-//   }
+  getDepartment() {
+    return this.department;
+  }
 }
 
 //Make Employee accessible to child classes

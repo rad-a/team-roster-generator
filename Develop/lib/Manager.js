@@ -3,8 +3,8 @@
 const Employee = require("./Employee");
 
 class Manager extends Employee {
-  constructor(name, id, email, officeNumber) {
-    super(name, id, email);
+  constructor(name, id, email, officeNumber, department) {
+    super(name, id, email, department);
     
     this.officeNumber = officeNumber;
     this.role = 'Manager';
@@ -14,20 +14,16 @@ class Manager extends Employee {
     return this.role;
   }
 
-  getOffice() {
+  getOfficeNumber() {
     return this.officeNumber;
   }
 }
 
-// getOffice() {
-//     return this.officeNumber;
-// }
-
-// Manager.prototype.getOffice = function() {
+// Manager.prototype.getOfficeNumber = function() {
 // return this.officeNumber;
 // }
 // Manager.prototype.getRole = function() {
 //     return this.role;
 // }
 
-exports = Manager;
+module.exports = Manager;
