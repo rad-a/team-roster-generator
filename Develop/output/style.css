@@ -1,0 +1,28 @@
+header {
+    margin-bottom: 5rem;
+
+}
+
+.jumbotron {
+    background-color: #e9cc13;
+    border-radius: 0px;
+}
+h1 {
+    color: white;
+}
+
+.employee-card {
+    margin: .7rem;
+    padding: 0px;
+box-shadow: 2px 2px 5px #333333;
+border: none;
+}
+
+.card-header {
+    background-color: #007c88;
+    color: white;
+}
+
+.card-body {
+    background-color: rgb(246, 248, 248);
+}
