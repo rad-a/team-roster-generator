@@ -65,7 +65,7 @@ const managerPrompts = [
 const engineerPrompts = [
   {
     type: "input",
-    name: "github",
+    name: "GitHubUser",
     message: "Enter employee's github username:",
     validate: validateInput,
   },
@@ -75,7 +75,7 @@ const engineerPrompts = [
 const internPrompts = [
   {
     type: "input",
-    name: "github",
+    name: "school",
     message: "Enter intern's school name:",
     validate: validateInput,
   },
@@ -136,7 +136,7 @@ function buildEmployee(employee) {
     case "Manager":
       return new Manager(name, id, email, employee.officeNumber);
     case "Engineer":
-      return new Engineer(name, id, email, employee.gitHub);
+      return new Engineer(name, id, email, employee.GitHubUser);
     case "Intern":
       return new Intern(name, id, email, employee.school);
     default:
