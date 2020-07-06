@@ -4,6 +4,25 @@
 
 Team Roster Generator is a Node CLI that generates a well-formatted HTML page based on user input. 
 
+## Table of Contents 
+
+<details>
+ <summary>Click to view Table of Contents ...</summary>
+ <p>
+
+ - [Getting Started](#getting-started)
+ - [MVP](#mvp)
+ - [User Input](#user-input)
+ - [Roster Output](#roster-output)
+ - [Installation](#installation)
+ - [Testing](#testing)
+ - [Application Example](#application-example)
+ - [Contact](#contact)
+
+
+</p>
+</details>
+
 
 ## User Story
 
